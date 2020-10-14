@@ -9,7 +9,7 @@ docker run -v /path/to/xml_file:/workshift.xml workshifts --xml_path="/workshift
 или с аргументами
 docker run -v /path/to/xml_file:/workshift.xml workshifts --xml_path="/workshift.xml" --start_date=02-03-2011 --end_date=05-03-2011 --logins="b.testobject,a.stepanova, i.ivanov"
 или напрямую без докера
-python main.py --xml_path tests/test_workshifts.xml
+python main.py --xml_path data/workshifts.xml
 ```
 Где /path/to/xml_file - путь до XML файла со схемами для передачи его докеру по тому. Аргументы не обязательны
 
